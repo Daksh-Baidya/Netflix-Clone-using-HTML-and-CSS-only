@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: black;
+}
+
+/* /Main 1st/ */
+
+.main {
+    background-image: url("/Assests/images/background\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 675px;
+    position: relative;
+}
+
+/* /blurriness/ */
+
+.main .box {
+    position: absolute;
+    opacity: 0.69;
+    width: 100%;
+    height: 675px;
+    top: 0;
+    background-color: black;
+}
+
+/* /logo and buttons/ */
+
+nav {
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo {
+    margin-right: 500px;
+}
+
+nav .logo img {
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav .button-2 button {
+    position: relative;
+    z-index: 10;
+    margin-left: 15px;
+    background-color: red;
+    color: white;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.button-1 button {
+    position: relative;
+    z-index: 10;
+    margin-left: 15px;
+    background-color: transparent;
+    color: white;
+    padding: 9px 18px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+/* /Main text/ */
+
+.hero-msg {
+    width: 100%;
+    color: white;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 5px 0;
+    margin-top: 75px;
+}
+
+.hero-msg h1:first-child {
+    font-size: 2.6rem;
+}
+
+.hero-msg h1:nth-child(2) {
+    font-size: 2.8rem;
+}
+
+.hero-msg .hero-s-msg1 {
+    margin-bottom: 10px;
+}
+
+.hero-msg .hero-s-msg2 {
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* /sign-up/ */
+
+.sign-up {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 260px;
+    gap: 15px;
+}
+
+.sign-up input[name="email"] {
+    background-color: #101010;
+    color: dimgray;
+    height: 50px;
+    border: none;
+    outline: 1px solid gray;
+    padding: 0 30px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 125px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+/* /Main 2/ */
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 530px;
+}
+
+/*Container inside Main2 */
+
+.main2-container {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* /Main2 Title inside the container/ */
+
+.main2-title {
+    margin: 60px 0 15px 0;
+    font-size: 1.6rem;
+    margin-left: 55px
+}
+
+/* /Main2 Box inside the container under the title/ */
+
+.main2-box {
+    width: 417px;
+    height: 195px;
+    border: none;
+    margin: 0 10px 10px 10px;
+    color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(#641D3B, #201221);
+}
+
+/* /Main2 paragraphs inside the box/ */
+
+.main2-box p {
+    margin: 21px 12px;
+}
+
+.main2-box p:first-child {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.main2-box p:last-child {
+    font-weight: 600;
+}
+
+/* /Main 3/ */
+
+.main3 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 530px;
+}
+
+/* /Main 3 title inside the container/ */
+
+.main3-title {
+    margin: 60px 0 15px 0;
+    font-size: 1.6rem;
+    margin-left: 55px
+}
+
+/* /Container inside main 3/ */
+
+.main3-container {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* /Main 3 box inside the container under the title/ */
+
+.main3-box {
+    width: 417px;
+    height: 195px;
+    border: none;
+    margin: 0 10px 10px 10px;
+    color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(#212340, #201422);
+}
+
+/* /Main3 Paragraphs inside the box/ */
+
+.main3-box p {
+    margin: 21px 12px;
+}
+
+.main3-box p:first-child {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+/* /Main 4/ */
+
+.main4 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 768px;
+}
+
+/* /Main 4 title inside the container/ */
+
+.main4-title {
+    margin: 60px 0 15px 0;
+    font-size: 1.6rem;
+    margin-left: 55px
+}
+
+/* /Container inside Main4/ */
+
+.main4-container {
+    height: 600px;
+}
+
+/* /Main 4 box inside the container under the title/ */
+
+.main4-box {
+    width: 70vw;
+    height: 81px;
+    margin: 11px 0;
+    margin-left: 50px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* /Main4 paragraphs inside the box/ */
+
+.main4-box p {
+    font-size: 1.5rem;
+    margin: 0 20px;
+}
+
+.main4-box i {
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+
+/* /main5/ */
+
+.main5-title {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.main5 {
+    width: 90vw;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+/* /Main 5 sign in part 2/ */
+
+.main5 input[name="email"] {
+    background-color: #101010;
+    color: dimgray;
+    height: 55px;
+    width: 610px;
+    border: none;
+    outline: 1px solid gray;
+    padding: 0 30px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.sign-in2 {
+    background-color: red;
+    color: white;
+    height: 55px;
+    width: 180px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+/* /Main6/ */
+
+.main6 {
+    color: #9A9A9A;
+    margin: 25px 0 40px 105px;
+}
+
+/* /Footer Links/ */
+
+.footer {
+    color: #9A9A9A;
+    margin-right: 105px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 180px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    padding: 5px;
+}
+
+/* /more footer/ */
+
+.more-footer {
+    margin: 40px 90px;
+    color: #9A9A9A;
+}
+
+.more-footer p {
+    margin: 40px 0;
+}
+
+/* /End of CSS for pc version/ */
+
+/* Responsiveness */
+
+@media only screen and (max-width: 800px) {
+
+    .main {
+        width: 100%;
+        height: 580px;
+    }
+
+    .main .box {
+        height: 580px;
+        width: 100%;
+    }
+
+    nav .logo {
+        margin-right: 50px;
+    }
+
+    nav .logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    nav .button-2 button {
+        height: 35px;
+        width: 80px;
+        font-size: 0.60rem;
+        border-radius: 7px;
+    }
+
+    .button-1 button {
+        height: 35px;
+        width: 80px;
+        font-size: 0.60rem;
+    }
+
+    .sign-up {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .sign-up input[name="email"] {
+        width: 280px;
+        margin-bottom: 15px;
+    }
+
+    .sign-in {
+        height: 50px;
+        width: 145px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-msg {
+        margin-top: 27px;
+    }
+
+    .hero-msg h1:first-child {
+        font-size: 2rem;
+    }
+
+    .hero-msg h1:nth-child(2) {
+        font-size: 2rem;
+    }
+
+    .hero-msg .hero-s-msg1 {
+        margin-bottom: 10px;
+    }
+
+    .hero-msg .hero-s-msg2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 0.90rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 330px;
+    }
+
+    .main2-title {
+        font-size: 1.1rem;
+        margin-right: 100px;
+    }
+
+
+    .main2-box p {
+        font-size: 0.90rem;
+    }
+
+    .main3 {
+        margin-top: 370px;
+    }
+
+    .main3-title {
+        font-size: 1.1rem;
+    }
+
+    .main3-box p:first-child {
+        font-size: 1rem;
+    }
+
+    .main3-box p {
+        font-size: 0.90rem;
+    }
+
+    .main4 {
+        margin-top: 370px;
+    }
+
+    .main4-title {
+        font-size: 1.2rem;
+    }
+
+    .main4-box {
+        width: 330px;
+        margin-left: 35px;
+    }
+
+    .main4-box p {
+        font-size: 0.90rem;
+    }
+
+    .m4-end-line {
+        width: 85%;
+        border: 2px solid white;
+        height: 80px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .main5 input[name="email"] {
+        width: 285px;
+    }
+
+    .sign-in2 {
+        margin-top: 20px;
+    }
+
+    .main6 {
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-left: 45px;
+    }
+
+    .more-footer {
+        margin-top: 390px;
+        margin-left: 40px;
+    }
+
+}
